@@ -1,0 +1,64 @@
+<html>
+	<head>
+		
+		<script>
+			window.open("forms.html","WHY","status=0,toolbar=0");
+			window.open("forms.html",'_blank');
+			document.onload = alertFun("please disable ad block to continue");
+			//alertFun("new product available");
+			function alertFun(x)
+			{
+				if (window.confirm(x))
+				{
+					alertFun(x);
+					window.open("forms.html",'_blank');
+				}
+				else
+				{
+					print(true);
+					//alertFun(x);
+					//window.open("forms.html",'_blank');
+					// They clicked no
+				}
+				//window.alert(x);
+
+				//alertFun("please buy a product before you can leave");
+			}
+		</script>
+	</head>
+
+
+
+
+<body>
+
+	<dl type = "I">
+	<dt>			<img alt = "hello world"
+					src= "soap web1.jpg"
+					width = "500px" height = "500px"/>
+		</dt>
+		<dd>- The great limited edition edible soap</dd>
+		<h6> soap is not edible </h6>
+	<dt><img alt = "hello world"
+					src= "soap web2.jpg"
+					width = "500px" height = "500px"/>
+		</dt>
+		<dd>- hand crafted and filled with revitalising crystals, act quick while stock last</dd>
+		<dt>
+			<img alt = "hello world"
+					src= "soap web3.jpg"
+					width = "500px" height = "500px"/>
+		</dt>
+		<dd> - words does it no justice just buy it and see the results
+		<dt>
+		<img alt = "hello world"
+					src= "soap web4.jpg"
+					width = "500px" height = "500px"/>
+		</dt>
+		<dd> - fermented in the finest barrels money can buy, 80 years of quality
+	</dl>
+</body>
+</html>
+
+
+
